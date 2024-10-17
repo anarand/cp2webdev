@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+
+body{
+    font-family: 'Tahoma';
+    
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+    background-color: #36545C;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+
+.ul li a{
+    color: white;
+}
+
+/* main */
+
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.main-text{
+    width: 50%;
+    color: white;
+}
+
+.main-text h1{
+    font-size: 60px;
+}
+
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-text button{
+    background-color: #c6fcff;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: 'tahoma';
+    
+}
+
+.destaques{
+    background-color: #36545C;
+    max-width: 1440px;
+    display: flex;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+.destaques h1{
+    color: white;
+}
+
+.vendas{
+    max-width: 1440px;
+    display: flex;
+    padding: 0 3%;
+    margin: 0 auto;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+.cards{
+    background-color: #cfcfcf;
+    border-radius: 20px;
+    /* align-items: center; */
+    box-shadow: 4px 4px 12px #a1a1a1;
+    width: 300px;
+    margin: 20px;
+}
+
+.cards h1{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.cards h2{
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cards img{
+ width: 100%;
+}
+
+.eletricas{
+    background-color: #36545C;
+    max-width: 1440px;
+    display: flex;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+.eletricas h1{
+    color: white;
+}
+
